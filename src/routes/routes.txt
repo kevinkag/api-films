@@ -1,0 +1,8 @@
+GET /api/films/2 - recupera la pelicula 2 //REQUIRE LOGIN
+GET /api/films - recupera todas las peliculas //REQUIRE LOGIN
+POST /api/films - crea una pelicula //REQUIRE LOGIN AND ADMIN
+PUT /api/films/4 - edita la pelicula 4 //REQUIRE LOGIN AND ADMIN
+DELETE /api/films/4 - borra la pelicula 4 //REQUIRE LOGIN AND ADMIN
+
+/api/users/login
+/api/users/register
